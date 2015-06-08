@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/layout"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="Boarding Loaction"
+        android:textColor="#372c24" />
+
+    <EditText
+        android:id="@+id/boarding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:hint="Enter your Boarding Location"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="Destination"
+        android:textColor="#372c24" />
+
+    <EditText
+        android:id="@+id/destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:hint="Destination" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="Number of Taxis"
+        android:textColor="#372c24" />
+
+    <EditText
+        android:text="1"
+        android:id="@+id/no_of_taxis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dip"
+        android:hint="No of vehicles"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/CustomDialogBookVehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Vehicle" />
+</LinearLayout>

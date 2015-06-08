@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <stroke android:width="3sp"
+        android:color="#eee"/>
+    <solid android:color="#fff"/>
+    <corners android:radius="2sp" />
+
+</shape>
+<!-- From: file:/E:/AutoRiksha1/app/src/main/res/drawable-hdpi/edittext_background.xml -->

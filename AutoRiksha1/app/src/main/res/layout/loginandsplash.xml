@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <com.fourmob.panningview.library.PanningView
+        android:id="@+id/panningView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/wlap"
+        android:alpha=".7"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+    <RadioGroup
+        android:id="@+id/typeOfUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:text="New RadioButton">
+        <RadioButton
+            android:id="@+id/loginuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="User"
+            android:textColor="@drawable/radio_color" />
+
+        <RadioButton
+            android:id="@+id/driver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="loginDriver"
+            android:textColor="@drawable/radio_color" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="30dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:src="@drawable/email" />
+
+            <EditText
+                android:id="@+id/login_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@drawable/edittext_background"
+                android:hint="Enter Email"
+                android:padding="6dp"
+                android:text="hmandal007@gmail.com" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="30dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:src="@drawable/password" />
+            <EditText
+                android:id="@+id/loginpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:background="@drawable/edittext_background"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:padding="6dp"
+                android:text="qwerty" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#b7caf3"
+        android:text="Login" />
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign_Up" />
+</LinearLayout>
+    </FrameLayout>

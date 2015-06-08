@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+    
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Your Status Is"
+    /> 
+<TextView
+    android:id="@+id/not_booked"
+    android:textSize="50dp" 
+    android:visibility="visible" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="   Not \nBooked"
+    />
+<LinearLayout
+    android:id="@+id/booked"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+<TextView
+    android:textSize="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Booked"
+    />
+<TextView
+    android:textSize="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Your Vehicle No is"
+    />
+<TextView
+    android:textSize="50dp"
+    android:id="@+id/bookedvehiclenumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="123456"
+    />
+</LinearLayout>
+</LinearLayout>
+<!-- From: file:/E:/AutoRiksha1/app/src/main/res/layout/bookstatus.xml -->

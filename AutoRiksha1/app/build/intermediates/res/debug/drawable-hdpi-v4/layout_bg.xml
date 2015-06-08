@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="10sp" />
+
+    <solid android:color="#5791f3" />
+
+    <stroke
+        android:width="3sp"
+        android:color="#4585f1" />
+
+</shape><!-- From: file:/E:/AutoRiksha1/app/src/main/res/drawable-hdpi/layout_bg.xml -->

@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="10sp" />
+
+    <stroke
+        android:width="3sp"
+        android:color="#c0c0c0" />
+
+    <solid android:color="#ececec" />
+
+</shape>
+
+<!-- From: file:/E:/AutoRiksha1/app/src/main/res/drawable-hdpi/layout_email.xml -->

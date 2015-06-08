@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaxiBooking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="listItems">
+        <item>Home</item>
+        <item>Book Your Vehicle</item>
+        <item>Booking Status</item>
+        <item>I am in danger</item>
+        <item>Report Problems</item>
+        <item>Contact Us</item>
+        <item>Log Out</item>
+    </string-array>
+    <!-- array to store icons of list -->
+    <array name="listIcons">
+        <item>@drawable/home</item>
+        <item>@drawable/taxi</item>
+        <item>@drawable/bookstatus</item>
+        <item>@drawable/danger</item>
+        <item>@drawable/report</item>
+        <item>@drawable/contacticon</item>
+    	<item>@drawable/logout</item>
+    </array>
+</resources>

@@ -1,0 +1,4 @@
+include ':app'
+include ':app', ':PanningViewLibrary'
+project(':PanningViewLibrary').projectDir = new File('libs/PanningViewLibrary')
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/firstname_signup"
+        android:text="Kartikey"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:hint="First Name" />
+    <EditText
+        android:text="Srivastava"
+        android:id="@+id/lastname_signup"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:hint="Last Name" />
+
+    <EditText
+        android:text="kartikeyshrivastava@gmail.com"
+        android:id="@+id/email_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:gravity="center"
+        android:hint="Email"
+        android:singleLine="true" />
+    <EditText
+        android:gravity="center"
+android:text="abcd"
+        android:id="@+id/setpassword_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:hint="Password" />
+    <EditText
+        android:text="abcd"
+        android:id="@+id/setreenterpassword_signup"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:hint="Re-enter Password" />
+    <EditText
+        android:text="welcomedude"
+        android:id="@+id/username_signup"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:hint="User Name"
+        android:singleLine="true" />
+    <EditText
+        android:text="123456789"
+        android:id="@+id/mobno_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:gravity="center"
+        android:hint="Enter 10 digit mobile number"
+        android:inputType="number"
+        android:singleLine="true" />
+    <EditText
+        android:text="144456789"
+
+        android:id="@+id/emerno_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:gravity="center"
+        android:hint="Emergency No."
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/registersignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+</LinearLayout>
+<!-- From: file:/E:/AutoRiksha1/app/src/main/res/layout/sign_up.xml -->
